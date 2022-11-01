@@ -1,0 +1,64 @@
+body {
+   margin: 0;
+}
+#scorebox-home, #scorebox-guest{
+    height: 125px;
+    width: 150px;
+    background: black;
+    display: grid;
+    place-items: center;
+    margin-bottom: 25px;
+    font-size: 75px;
+    color: #F94F6D;
+    margin-top: -40px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #1B244A;
+    flex-direction: column;
+}
+.home, .guest {
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -25px;
+}
+.points {
+    margin-bottom: 75px;
+}
+button {
+    background: #1B244A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.5em;
+    padding: 20px;
+}
+#new-game {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#new-game:hover {
+    background: #F94F6D;
+}
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#winhome, #winguest {
+    margin-top: 15px;
+    font-size: 25px;
+    
+}
